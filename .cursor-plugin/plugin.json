@@ -1,0 +1,25 @@
+{
+  "name": "rankzap",
+  "version": "0.1.0",
+  "description": "Audit websites, research keywords, plan content and request approved publishing through RankZap. Paid work and publication require a scoped human approval.",
+  "author": {
+    "name": "RankZap",
+    "email": "hello@rankzapseo.com"
+  },
+  "homepage": "https://rankzapseo.com/integrations/mcp",
+  "license": "MIT",
+  "keywords": [
+    "rankzap",
+    "seo",
+    "website-audit",
+    "keyword-research",
+    "content-calendar",
+    "ai-visibility",
+    "local-seo"
+  ],
+  "skills": [
+    "./skills/rankzap"
+  ],
+  "mcpServers": "./.mcp.json",
+  "repository": "https://github.com/hasi100/rankzap-mcp"
+}

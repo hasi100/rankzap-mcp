@@ -1,0 +1,10 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.rankzapseo/mcp",
+  "title": "RankZap",
+  "description": "Website audits, keywords, content calendars, approved publishing, AI visibility and local SEO.",
+  "version": "0.1.0",
+  "websiteUrl": "https://rankzapseo.com/integrations/mcp",
+  "repository": { "url": "https://github.com/hasi100/rankzap-mcp", "source": "github" },
+  "remotes": [{ "type": "streamable-http", "url": "https://rankzapseo.com/mcp" }]
+}

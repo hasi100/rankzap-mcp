@@ -1,0 +1,6 @@
+{
+  "name": "rankzap",
+  "owner": { "name": "RankZap", "email": "hello@rankzapseo.com" },
+  "metadata": { "description": "Official RankZap SEO workflow skill and hosted MCP connection." },
+  "plugins": [{ "name": "rankzap", "source": "./", "description": "SEO workflows through the hosted RankZap MCP server." }]
+}

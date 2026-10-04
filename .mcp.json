@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "rankzap": {
+      "type": "http",
+      "url": "https://rankzapseo.com/mcp"
+    }
+  }
+}
