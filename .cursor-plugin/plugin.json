@@ -1,7 +1,7 @@
 {
   "name": "rankzap",
-  "version": "0.1.0",
-  "description": "Audit websites, research keywords, plan content and request approved publishing through RankZap. Paid work and publication require a scoped human approval.",
+  "version": "0.1.1",
+  "description": "Research keywords, review website audits and plan SEO content in RankZap, with human approval for actions and publishing.",
   "author": {
     "name": "RankZap",
     "email": "hello@rankzapseo.com"

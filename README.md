@@ -1,14 +1,12 @@
 # RankZap assistant plugin
 
-Version 0.1.0. This package contains a workflow skill and remote MCP configuration. It does not contain the RankZap application, customer data, provider keys or a local server binary.
+Version 0.1.1. This package contains a workflow skill and remote MCP configuration. It does not contain the RankZap application, customer data, provider keys or a local server binary.
 
-**Release status: integration preview.** The server implementation and automated authorization/billing tests are complete; production activation is being coordinated with a hosting migration. The hosted endpoint must be enabled before sign-in works. Native-client acceptance and public marketplace approval are not yet claimed.
+**Release status: endpoint enabled.** The hosted endpoint is active at https://rankzapseo.com/mcp. Automated authorization/billing tests have passed. Full native-client review and public directory approval remain pending; neither is claimed by this package.
 
 The package includes a portable Agent Plugins manifest for ChatGPT/Codex and compatibility manifests for Claude Code, Cursor and Grok Build. It executes no local hooks or scripts. Public directory submission is a separate process.
 
 ## Install the Claude Code plugin
-
-Once the hosted service is enabled:
 
 ```text
 /plugin marketplace add hasi100/rankzap-mcp

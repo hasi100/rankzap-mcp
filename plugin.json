@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "rankzap",
-  "version": "0.1.0",
-  "description": "Audit websites, research keywords, plan content and request approved publishing through RankZap. Paid work and publication require a scoped human approval.",
+  "version": "0.1.1",
+  "description": "Research keywords, review website audits and plan SEO content in RankZap, with human approval for actions and publishing.",
   "author": {
     "name": "RankZap",
     "email": "hello@rankzapseo.com"
@@ -23,8 +23,8 @@
     "com.openai": {
       "interface": {
         "displayName": "RankZap",
-        "shortDescription": "SEO from audit to publishing",
-        "longDescription": "Connect your RankZap workspace to read website audits and keyword evidence, select article topics, plan a calendar, review drafts and request verified publishing. Request bounded AI visibility, authority and local ranking checks. Access is limited to selected projects. Actions require human review in RankZap and may use existing subscription allowances or prepaid credits. Managed launch plans support paid actions; legacy subscriptions can read saved results. Missing measurements remain unknown.",
+        "shortDescription": "SEO research and content plans",
+        "longDescription": "RankZap helps website owners and marketing teams research keywords, review website audits, plan SEO content calendars and review article drafts. Connect a RankZap account and choose which projects the plugin can access. Request AI visibility, authority and local ranking checks, and prepare actions or publishing requests for human approval in RankZap. Available actions depend on the connected account’s permissions and entitlements. Missing or unavailable measurements are reported as unknown.",
         "developerName": "RankZap",
         "category": "Productivity",
         "capabilities": [
@@ -106,7 +106,7 @@
         "commerce_description": "No checkout, product sales or credit purchases through tools. Some actions consume existing RankZap subscription allowances or prepaid service credits after a separate human approval. Account subscription and billing are managed on the RankZap website."
       },
       "publication": {
-        "release_notes": "Initial hosted OAuth MCP workflow and companion skill. Public directory approval is separate from manual installation."
+        "release_notes": "Updated listing descriptions and active-endpoint setup guidance. Native-client review and public directory approval remain pending."
       }
     }
   }
