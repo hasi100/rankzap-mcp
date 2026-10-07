@@ -1,27 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="t">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" role="img" aria-labelledby="t" width="256" height="256">
   <title id="t">RankZap</title>
   <defs>
     <radialGradient id="g" cx="36%" cy="30%" r="82%">
-      <stop offset="0" stop-color="#9F7AFA"/>
-      <stop offset="0.5" stop-color="#8B5CF6"/>
-      <stop offset="1" stop-color="#7A3FF0"/>
+      <stop offset="0" stop-color="#9F7AFA" />
+      <stop offset="0.5" stop-color="#8B5CF6" />
+      <stop offset="1" stop-color="#7A3FF0" />
     </radialGradient>
   </defs>
-  <!-- Zappy: a tall blob that leans right; the eyes sit high on the right
-       and the right eye is the smaller one, as in the approved artwork. -->
-  <path fill="url(#g)" d="M36 148C30 86 78 38 146 36c58-2 94 40 96 106 2 60-42 100-102 100C84 242 42 212 36 148Z"/>
-  <g class="eyes" fill="#0A0A0C">
+  
+  <path fill="url(#g)" d="M36 148C30 86 78 38 146 36c58-2 94 40 96 106 2 60-42 100-102 100C84 242 42 212 36 148Z" />
+  <g fill="#0A0A0C">
     <g transform="rotate(-12 154 108)">
-      <rect class="eye" x="143" y="78" width="22" height="60" rx="11">
-        <animate attributeName="height" values="60;60;6;60;60;60;60;60" keyTimes="0;0.44;0.47;0.5;0.52;0.7;0.73;1" dur="6s" repeatCount="indefinite"/>
-        <animate attributeName="y" values="78;78;105;78;78;78;78;78" keyTimes="0;0.44;0.47;0.5;0.52;0.7;0.73;1" dur="6s" repeatCount="indefinite"/>
-      </rect>
+      <rect x="143" y="78" width="22" height="60" rx="11">
+        </rect>
     </g>
     <g transform="rotate(-12 198 96)">
-      <rect class="eye" x="189" y="72" width="18" height="48" rx="9">
-        <animate attributeName="height" values="48;48;5;48;48;48;48;48" keyTimes="0;0.44;0.47;0.5;0.52;0.7;0.73;1" dur="6s" repeatCount="indefinite"/>
-        <animate attributeName="y" values="72;72;94;72;72;72;72;72" keyTimes="0;0.44;0.47;0.5;0.52;0.7;0.73;1" dur="6s" repeatCount="indefinite"/>
-      </rect>
+      <rect x="189" y="72" width="18" height="48" rx="9">
+        </rect>
     </g>
   </g>
 </svg>
