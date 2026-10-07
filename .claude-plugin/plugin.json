@@ -21,5 +21,11 @@
     "./skills/rankzap"
   ],
   "mcpServers": "./.mcp.json",
-  "repository": "https://github.com/hasi100/rankzap-mcp"
+  "repository": "https://github.com/hasi100/rankzap-mcp",
+  "displayName": "RankZap",
+  "icon": "./assets/marketplace-icon.svg",
+  "documentationUrl": "https://rankzapseo.com/integrations/mcp",
+  "supportUrl": "https://rankzapseo.com/contact/",
+  "privacyPolicyUrl": "https://rankzapseo.com/privacy/",
+  "termsOfServiceUrl": "https://rankzapseo.com/terms/"
 }

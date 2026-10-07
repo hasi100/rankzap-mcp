@@ -21,5 +21,6 @@
     "./skills/rankzap"
   ],
   "mcpServers": "./.mcp.json",
-  "repository": "https://github.com/hasi100/rankzap-mcp"
+  "repository": "https://github.com/hasi100/rankzap-mcp",
+  "logo": "assets/marketplace-icon.svg"
 }
