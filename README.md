@@ -13,7 +13,7 @@ The package includes a portable Agent Plugins manifest for ChatGPT/Codex and com
 /plugin install rankzap@rankzap
 ```
 
-The bundled skill teaches the review-and-approval workflow. Authenticate the bundled MCP server through `/mcp`.
+The bundled skill supports direct execution under consented included allowances and separate publishing review. Authenticate the bundled MCP server through `/mcp`.
 
 ## Connect
 
@@ -42,7 +42,7 @@ codex mcp login rankzap
 
 > Audit my website, explain the main issues, help me choose keywords and plan three articles per week. Show me each charge and let me review an article before publishing.
 
-The user selects workspace/project access at sign-in. Each requested mutation or paid action returns a RankZap approval page. The application enforces scoped access, quotes, allowances, supplier budgets and revocation. The skill explains the workflow; it cannot override those controls.
+The user selects workspace/project access at sign-in. Users can authorize routine work to execute from chat under a configurable 1–100 included-data-credit cap per action (default 20). Existing connections remain manual until reauthorized. Prepaid spending, draft approval and publishing return a RankZap approval page. The application enforces scoped access, quotes, allowances, supplier budgets and revocation. The skill explains the workflow; it cannot override those controls.
 
 Saved results are free. Paid MCP actions initially require managed launch pricing. Legacy subscriptions retain saved-data access; paid legacy actions use the dashboard until a compatible quote is available. Website connections are completed in RankZap; do not paste credentials into an assistant.
 

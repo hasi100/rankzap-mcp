@@ -1,7 +1,7 @@
 {
   "name": "rankzap",
-  "version": "0.1.1",
-  "description": "Research keywords, review website audits and plan SEO content in RankZap, with human approval for actions and publishing.",
+  "version": "0.2.0",
+  "description": "Research keywords, review website audits and plan SEO content in RankZap, with consented included-allowance execution and human review for publishing.",
   "author": {
     "name": "RankZap",
     "email": "hello@rankzapseo.com"
