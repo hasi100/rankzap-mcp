@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "rankzap",
-  "version": "0.1.1",
-  "description": "Research keywords, review website audits and plan SEO content in RankZap, with human approval for actions and publishing.",
+  "version": "0.2.0",
+  "description": "Research keywords, review website audits and plan SEO content in RankZap, with consented included-allowance execution and human review for publishing.",
   "author": {
     "name": "RankZap",
     "email": "hello@rankzapseo.com"
@@ -24,7 +24,7 @@
       "interface": {
         "displayName": "RankZap",
         "shortDescription": "SEO research and content plans",
-        "longDescription": "RankZap helps website owners and marketing teams research keywords, review website audits, plan SEO content calendars and review article drafts. Connect a RankZap account and choose which projects the plugin can access. Request AI visibility, authority and local ranking checks, and prepare actions or publishing requests for human approval in RankZap. Available actions depend on the connected account’s permissions and entitlements. Missing or unavailable measurements are reported as unknown.",
+        "longDescription": "RankZap helps website owners and marketing teams research keywords, review website audits, plan SEO content calendars and review article drafts. Connect a RankZap account and choose which projects the plugin can access. Request AI visibility, authority and local ranking checks, and run requested routine work within consented included allowances. Prepaid spending and publishing require human approval in RankZap. Available actions depend on the connected account’s permissions and entitlements. Missing or unavailable measurements are reported as unknown.",
         "developerName": "RankZap",
         "category": "Productivity",
         "capabilities": [
